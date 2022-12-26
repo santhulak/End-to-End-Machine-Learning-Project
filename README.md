@@ -104,3 +104,5 @@ to stop docker container
 docker stop <container_id>
 
 ```
+
+Create afolder ->.github ->sub folder workflows -> add new file main.yaml
