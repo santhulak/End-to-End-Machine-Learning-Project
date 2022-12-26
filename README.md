@@ -63,3 +63,44 @@ To check remote url
 ```
 git remote -v
 ```
+
+To set CI/CD Pipeline in Heroku we need 3 informations
+
+1. HEROKU_EMAIL
+2. HEROKU_API_KEY
+3. HEROKU_APP_NAME
+
+
+To create a Docker File:
+Click new file -> type -> Dockerfile
+
+
+create a new file ->.dockerignore ->mention the files that is not needed in docker
+
+Build Docker image
+
+```
+docker build -t <image_name>:<tagname>
+```
+Note: Image name for docker must be lowercase
+
+To list docker image
+
+```
+docker images
+```
+Run docker image
+
+```
+docker run -p 5000:5000 -e PORT=5000 imageid
+
+```
+to check running container in docker
+```
+docker ps
+```
+to stop docker container
+```
+docker stop <container_id>
+
+```
