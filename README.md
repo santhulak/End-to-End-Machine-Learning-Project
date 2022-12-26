@@ -7,17 +7,18 @@ Requirement:
 3. VS Code IDE:https://code.visualstudio.com/download
 4. Git cli : https://git-scm.com/downloads
 
-```python
-Creating Conda environment
-'''
-conda create -p venv python==3.7 -y
-'''
-OR
-'''
-conda activae venv
-'''
 
-'''
-pip intall -r requirements.tx
-'''
+Creating Conda environment
+
+```
+conda create -p venv python==3.7 -y
+```
+
+OR
+
+```
+conda activate venv
+```
+
+```pip intall -r requirements.txt
 ```
